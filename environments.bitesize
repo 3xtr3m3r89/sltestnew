@@ -1,7 +1,7 @@
-project: sample
+project: sltestnew
 environments:
   - name: Development
-    namespace: sample-dev
+    namespace: sltestnew-dev
     deployment:
       method: rolling-upgrade
     services:
