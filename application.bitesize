@@ -1,4 +1,4 @@
-project: sample
+project: sltestnew
 applications:
   - name: node-app
     runtime: ubuntu-nodejs5x:1.2
