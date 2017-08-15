@@ -1,12 +1,9 @@
-project: sample
+project: sltestnew
 components:
   - name: node-app
     os: linux
-    dependencies:
-      - type: debian-package
-        package: nodejs
     repository:
-      git: git@github.com:thilinapiy/bitesize-sample-apps.git
+      git: https://github.com/thilinapiy/bitesize-sample-apps.git
       branch: nodejsapp1-v2.0.10
     build:
       - shell: sudo mkdir -p /app
