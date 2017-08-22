@@ -6,7 +6,7 @@ environments:
       method: rolling-upgrade
     services:
       - name: node-app
-        external_url: nodejs-sltestnew.dev-bite.io
+        external_url: lmk-sltestnew.dev-bite.io
         port: 80
         ssl: "false"
         replicas: 1
